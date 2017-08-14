@@ -26,6 +26,10 @@
 
 
 
+@yield('styles')
+
+
+
 
 </head>
 
@@ -147,6 +151,10 @@
                                 <a href="{{route('posts.create')}}">Create Post</a>
                             </li>
 
+                            <li>
+                                <a href="{{route('comments.index')}}">All Comments</a>
+                            </li>
+
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
@@ -156,11 +164,11 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Categories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/categories">All Categories</a>
+                                <a href="{{route('categories.index')}}">All Categories</a>
                             </li>
 
                             <li>
-                                <a href="/categories/create">Create Category</a>
+                                <a href="{{route('categories.create')}}">Create Category</a>
                             </li>
 
                         </ul>
@@ -172,11 +180,11 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Media<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/media">All Media</a>
+                                <a href="{{route('media.index')}}">All Media</a>
                             </li>
 
                             <li>
-                                <a href="">Upload Media</a>
+                                <a href="{{route('media.create')}}">Upload Media</a>
                             </li>
 
                         </ul>
@@ -352,7 +360,10 @@
 <script src="{{asset('js/libs.js')}}"></script>
 
 
-@yield('footer')
+
+@yield('scripts')
+
+
 
 
 

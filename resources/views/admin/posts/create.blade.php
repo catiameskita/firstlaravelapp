@@ -1,7 +1,10 @@
 @extends('layouts.admin')
 
 
+
 @section('content')
+
+    @include('includes.tinyeditor')
 
 
     <h1>Create Posts</h1>
@@ -24,7 +27,7 @@
 
         </div>
 
-        <div class="form-group">gi
+        <div class="form-group">
 
             {!! Form::label('photo_id','Photo:')!!}
             {!! Form::file('photo_id',null, ['class'=>'form-control']) !!}
