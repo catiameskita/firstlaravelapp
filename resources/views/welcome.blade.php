@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Madeira Island</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Madeira Island
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://www.visitmadeira.pt/en-gb/homepage?AreaId=16" target="_blank">Official Tourism</a>
+                    <a href="http://walkmeguide.com/en/madeira/trails-list/" target="_blank">Levada Walks</a>
+                    <a href="http://www.netmadeira.com/webcams-madeira" target="_blank">Webcams</a>
+                    <a href="http://www.madeira-web.com/PagesUK/weather-uk.html" target="_blank">Weather</a>
+                    <a href="http://www.madeira-web.com/PagesUK/map.html" target="_blank">Maps</a>
                 </div>
             </div>
         </div>

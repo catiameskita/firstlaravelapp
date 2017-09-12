@@ -40,6 +40,8 @@ Route::resource('admin/categories','AdminCategoriesController');
 
 Route::resource('admin/media','AdminMediasController');
 
+Route::delete('admin/delete/media', 'AdminMediasController@deleteMedia');
+
 Route::resource('admin/comments', 'PostCommentController');
 
 Route::resource('admin/comment/replies', 'CommentRepliesController');
