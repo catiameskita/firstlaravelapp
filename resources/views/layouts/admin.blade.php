@@ -197,7 +197,7 @@
 
 
 
-                    <li>
+                   {{-- <li>
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
@@ -208,8 +208,8 @@
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
-                    </li>
-                    <li>
+                    </li>--}}
+                   {{-- <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
                     </li>
                     <li>
@@ -238,8 +238,8 @@
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
-                    </li>
-                    <li>
+                    </li>--}}
+                    {{--<li>
                         <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
@@ -281,7 +281,7 @@
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
-                </ul>
+                </ul>--}}
 
 
             </div>
@@ -296,7 +296,7 @@
 
     <div class="navbar-default sidebar" role="navigation">
         <div class="sidebar-nav navbar-collapse">
-            <ul class="nav" id="side-menu">
+           {{-- <ul class="nav" id="side-menu">
                 <li>
                     <a href="/profile"><i class="fa fa-dashboard fa-fw"></i>Profile</a>
                 </li>
@@ -323,7 +323,7 @@
 
 
 
-            </ul>
+            </ul>--}}
 
         </div>
 
